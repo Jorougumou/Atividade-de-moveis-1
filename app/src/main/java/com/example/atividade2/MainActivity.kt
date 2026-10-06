@@ -51,7 +51,7 @@ fun teste(){
     Scaffold(
         topBar = {
             TopAppBar(
-                title = {Text("Eventos UFC")},
+                title = {Text(text = "Eventos UFC", color = MaterialTheme.colorScheme.onPrimary)},
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primary
                 )
